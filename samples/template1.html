@@ -1,0 +1,193 @@
+<div class="row" style="background-color: #1C8F73; text-align:center; padding : 5px 0px;">
+    <a href="/ice/website_form.php" class="btn btn-success">Go Back</a>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title><?php echo $title; ?></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Add custom CSS here -->
+    <link href="css/site-template.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="brand"><i>Sample </i> Template</div>
+    <div class="address-bar"><i>"The Place to be"</i></div>
+
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+				<!-- Collapsed menu title -->
+                <a class="navbar-brand" href="index.html">Bundoora</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li><a href="events.html">Link 1</a>
+                    </li>
+                    <li><a href="community.html">Link 2</a>
+                    </li>
+                    <li><a href="contact.html">Link 3</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 text-center">
+					<img src="http://placehold.it/750x500">
+                    <h2>
+                        <small>Welcome to</small>
+                    </h2>
+                    <h1>
+                        <span class="brand-name"><i>Name of Place</i></span>
+                    </h1>
+                    <hr class="tagline-divider">
+                    <h2>
+                        <small>Description</strong></small>
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+						Latest/Important News
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/slideshow_pics/intro-pic.jpg" alt="">
+                    <hr class="visible-xs">
+                    <p>
+						Here is a description that has been entered by the administrator about the website.
+					</p>
+                    <p>
+						Many different fields can be entered or kept blank depending on the administrators preference
+					</p>
+                    <p>
+						This is some text to show that multiple paragraphs can be added
+					</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12">
+                    <hr>
+                    <h2 class="intro-text text-center">
+						Event Information
+                    </h2>
+                    <hr>
+                    <img class="img-responsive img-border img-left" src="img/slideshow_pics/intro-pic.jpg" alt="">
+                    <hr class="visible-xs">
+                    <p>
+						Here is a description that has been entered by the administrator about the website.
+					</p>
+                    <p>
+						Many different fields can be entered or kept blank depending on the administrators preference
+					</p>
+                    <p>
+						This is some text to show that multiple paragraphs can be added
+					</p>
+                </div>
+            </div>
+			
+        <div class="row">
+            <div class="box">
+                <div class="col-lg-12 center text-center">
+			<iframe width="640" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.it/maps?q=<?php echo $yourAddress; ?>&output=embed"></iframe>
+			</div>
+		</div>
+		</div>
+        </div>
+
+    </div>
+    <!-- /.container -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Copyright &copy; OurPlace 2014</p>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#abtUs">
+						About Us
+					</button>
+					<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#contactUs">
+						Contact Us
+					</button>
+                </div>
+            </div>
+        </div>
+	
+	<div class="modal fade" id="abtUs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">About Us</h4>
+      </div>
+      <div class="modal-body">
+        We are a company dedicated to providing a system that is easy to use for councils to set up 'location' websites. Simply create an account and use our webplace creater to select from a choice of templates and enter in your specific details. Once created it can be viewed by the public!
+      </div>
+    </div>
+  </div>
+</div>
+
+	<div class="modal fade" id="contactUs" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+      </div>
+      <div class="modal-body">
+        To reach us email:  <a href="mailto:admin@ourplace.com">admin@ourplace.com</a> or call: +61 12345678
+      </div>
+    </div>
+  </div>
+</div>
+	
+	
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script>
+    // Activates the Carousel
+    $('.carousel').carousel({
+        interval: 5000
+    })
+    </script>
+
+</body>
+
+</html>

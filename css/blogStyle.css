@@ -1,0 +1,25 @@
+.boxy {
+	margin-top: 10px;
+  background: #D4DADF;
+  border-radius:15px;
+  margin-bottom: 10px;
+  padding: 20px 15px;
+}
+.row
+{
+	padding-left: 10px;
+}
+.row .heading
+{
+	font-size: 20px;
+}
+.row .content
+{
+	min-height: 70px;
+}
+.postName
+{
+	font-size: 13px;
+	font-style: italic;
+	color: #696993;
+}

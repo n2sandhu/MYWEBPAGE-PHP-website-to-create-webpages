@@ -1,0 +1,511 @@
+.row2
+{
+	margin-top: 10px;
+}
+/*
+Theme Name: Designmodo
+Theme URI: http://designmodo.com
+Description: Custom theme for Designmodo
+Author: Various
+Author URI: 
+Version: 2.1
+
+*/
+uhtablebody, h1, h2, h3, h4, h5, h6, p, form, fieldset { margin:0; padding:0;  }
+img { border:0; }
+html, body, ol, ul, li, h1, h2, h3, h4, h5, h6, p, form, img, table, dl, dt, dd { padding:0; margin:0; }
+textarea { font-size:12px; }
+input { font-family:tahoma, arial; font-size:12px; vertical-align:middle; }
+input[type=checkbox], input[type=radio] { cursor:pointer; margin:0; vertical-align:middle; }
+select { font-family:tahoma, arial; font-size:12px; vertical-align:middle; }
+label { cursor:pointer; }
+a img, img { border:0; vertical-align:middle; }
+sup, sub { vertical-align:baseline!important; vertical-align:bottom; position:relative; }
+sup { bottom:.5em; }
+sub { top:.3em; }
+li {list-style: none;}
+
+h1 {font-weight:100} 
+
+a, a:visited { 
+-webkit-transition: all 0.2s ease-out;
+-moz-transition: all 0.2s ease-out;
+-ms-transition: all 0.2s ease-out;
+-o-transition: all 0.2s ease-out;
+color: #446DB2;
+text-decoration: none;
+}
+
+a:hover, a:active { 
+color:#5BC4C2;
+}
+
+
+body {
+background:#f6f8f8;
+color:#4C4C4C;
+font-family: 'Open Sans', sans-serif;
+font-size:15px;
+line-height: 25px;
+}
+
+strong {font-weight: 600;}
+
+/********************************************* */
+
+/* FFX FIXES */
+
+button::-moz-focus-inner { 
+    border: 0px;
+    padding: 0px;  
+}
+
+
+@media screen and (max-width: 1108px) {
+h2.article-title a { font-size:32px !important; font-family: 'Varela Round', 'Gotham Rounded', 'Rounded', 'Helvetica', Arial, sans-serif;}
+.shop-container li a strong { font-size:18px !important; }
+.buy-sell-ads-wrapper img { float:none;}
+.newsletter-wrapper .subscribe { display:none !important;} 
+.newsletter-wrapper .go { display:inline !important;}
+.index-author-comments-date { font-size:14px !important; }
+.ads-wrapper,#ads,.comm-single-script,#adsense-p,.bsa700{display:none;}
+.affilates-shop h1 {font-size: 44px !important;}
+.header-banner {display:none;}
+#main-wrapper, #upper-menu-container { margin-top:0!important; }
+#logo, .minicart {
+	margin-top: 103px !important;
+}
+#logo { padding-left: 3.4% !important; }
+.minicart {
+	margin-right: 2.3% !important;
+}
+#header-wrapper {
+	margin-top: 0px !important;
+}
+}
+
+@media screen and (max-width: 1024px) {
+body { padding:0  !important;}
+#content-wrapper { border: none !important;border-top: 1px solid #DDD !important;border-bottom:1px solid #CFCFCF!important;border-radius: 0 !important; }
+#page-menu-wrapper ul.main.left { border:0!important;box-shadow:none!important;}
+.affilates-shop { border-radius:0!important;}
+.we-love p {margin-left: 14.5%!important;}
+#content-wrapper h1 {font-size: 32px!important;} 
+#content-wrapper.banners h2 {line-height: 40px!important;}
+
+}
+
+@media screen and (max-width: 840px) {
+.sidebar-container { width:auto!important; float:none!important;}
+.sidebar-wrapper { width: 90%!important; margin: 0 4.5% 40px 4.5%!important; padding-right:0!important; }
+.articles-container { width:100% !important;}
+#upper-menu-container { display:none;}
+#header-wrapper {height:66px!important;text-align: center;}
+#logo {float:none!important; margin-top: 103px !important;}
+.main-logo {margin: 0 auto;}
+.paginator { text-align: center!important;}
+.newsletter-wrapper .subscribe { display:inline !important;} 
+.newsletter-wrapper .go {display:none !important;}
+.data-container h5 { font-size:24px !important;}
+.data-container h5 span { display:block; float:none !important;}
+#upper-menu-mobile { display:block !important; }
+#upper-menu-container { display:none !important; }
+#page-menu-wrapper ul li .top-menu span { margin-right:0 !important; }
+.avatar { width:40px;height:40px;}
+.data-container h5, .data-container p, .reply, #authorbio h3, #authorbio p { margin-left:0px!important; }
+.avatar-container{width:60px!important; height:60px!important; }
+#cse-search-results iframe {height: 1860px!important;}
+.paginator .title, .paginator .dots, .paginator .next, .paginator .prev{ display:none;}
+.paginator a, .paginator a.current {padding:5px 4px!important;}
+.starter li {width:100%!important;display:block!important;}
+.starter li.first {border:none!important;border-bottom:1px solid #EDEEEE!important;box-shadow: 0 1px 0 white!important;}
+.starter li div {padding: 45px 14.83%!important;}
+.we-love p {margin-left: 18.5%!important;}
+.we-love h1 {font-size: 30px!important;}
+.become h1, .become h2 {line-height:39px!important;}
+#content-wrapper.shop h1 {font-size:28px!important;padding-bottom: 20px!important;}
+.become li {width:100%!important;margin:0!important}
+.become li.first {padding-bottom:50px;margin-bottom:40px!important;border-bottom:1px solid #EDEEEE!important;}
+.become div, .become p {text-align: center!important;}
+.we-love {padding: 60px 5% 70px!important;}
+.faq li {width: 61%!important;padding-right: 0%!important;}
+#content-wrapper .how-to {padding-top:40px!important;}
+#content-wrapper .tutorials iframe {max-height: 424px;}
+#content-wrapper .tutorials h1 span {margin-right:13px!important;}
+.benefits li .circle {padding:20px!important;}
+#content-wrapper .tutorials li {display:block!important;width:100%!important;margin-bottom:40px;}
+#content-wrapper.banners .generate { padding:80px 7.2%!important;}
+#content-wrapper.banners span {display:none!important;}
+#content-wrapper.banners label {display:none!important;}
+#content-wrapper.banners select {width: 100%!important;margin:10px 0!important;}
+#content-wrapper.banners h2 a {display:block!important;float:none!important;}
+.minicart { display: none; }
+.dropdown-menu.profile .logout a { padding-bottom: 14px; }/* 
+#page-menu-wrapper ul li .profile .menu-header .menu { padding: 13px 13px 0 13px; } */
+.dropdown-menu.profile { width: 166px; }
+#page-menu-wrapper ul li div.profile { padding: 0px; }
+.nav-mini-cart { background: #f3f3f3; padding: 10px 13px 4px; display: block !important; }
+#page-menu-wrapper ul li .top-menu {padding: 14px 23px 22px!important;
+}
+#payment fieldset {
+	width: 100% !important;
+}
+.personal-information dl { width:100% !important; margin-top: 15px !important; padding-bottom: 11px !important; }
+.shop_table.my_account_orders { display:block; width:100%; }
+.pi-nav { position: static !important; float: left; margin-top: 0 !important; width: 100%; padding: 20px 0 20px 39px !important; border-bottom: 1px solid #e5f5f5; background: #fafdfd; box-sizing: border-box; -webkit-box-sizing: border-box;-moz-box-sizing: border-box; }
+table.my_account_orders .order-actions a:last-child { margin-right:10px !important; }
+}
+
+@media screen and (max-width: 640px) {
+table.my_account_orders th.order-functions, table.my_account_orders td.order-actions { display:none !important; }
+.address-form p { -moz-box-sizing:border-box; box-sizing:border-box; -webkit-box-sizing:border-box; width:100% !important; padding:0 5.3% !important; }
+.actions { padding:0 5.3% !important; }
+.address-form label { margin-top:11px !important; }
+.address-form input[type="text"] { width: 100% !important; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+.address-form .actions { padding:25px 40px 25px !important; margin-top:35px !important; }
+.address-form .form-row-first input, .address-form .form-row-last input, #billing_address_2_field input { width:100% !important; }
+}
+
+
+@media screen and (max-width: 580px) {
+#related-posts ul li { width:100% !important; margin:0 0 20px !important; }
+.newsletter-wrapper .subscribe { display:none !important;} 
+.newsletter-wrapper .go { display:inline !important;}
+.archives-thumb {width:97% !important;}
+.categories-container h2 {margin-left:0!important;}
+.archives-meta {margin-left:0!important;}
+.categories-container p {margin-left:0!important;}
+.archives-thumb { margin: 6px 3.33% 20px 0!important; }
+#page-menu-wrapper ul li .top-menu {padding: 14px 15px 22px !important;border:0 !important;box-shadow:none !important; }
+#page-menu-wrapper ul.main.right { border:0 !important;box-shadow:none !important;}
+.subscribe-input { width:71% !important; }
+.dropdown-menu.follow, .dropdown-menu.categories { width:100% !important; }
+#upper-menu-mobile .main label { display:none !important; }
+#recent-posts { display:none;}
+#related-posts {width:100% !important;}
+.affilates-shop { height: 497px!important;}
+.we-love .quote {font-size:100px!important;}
+.we-love p {font-size: 15px!important;line-height: 28px!important;}
+#content-wrapper .how-to li {width:auto!important;text-align:center;padding-bottom:40px!important;border-bottom:1px solid #DADADA;margin-bottom:40px!important;}
+#content-wrapper .how-to li:last-child {padding-bottom:0!important;border-bottom:0;margin-bottom:0!important;}
+#content-wrapper .tutorials iframe {max-height:247px;}
+.benefits { padding:40px 4%!important;}
+.benefits li  {width:93.5%!important;text-align:center;padding-bottom:40px!important;border-bottom:1px solid #DADADA;margin-bottom:40px!important;}
+.benefits li:last-child {padding-bottom:0!important;border-bottom:0;margin-bottom:0!important;}
+.benefits li h2 {margin: 45px 0 10px!important;}
+#related-posts ul li a { font-size:13px;}
+#content-wrapper .account-extra li {
+	float: none; width: 80%;
+}
+
+#payment fieldset a.button {
+	clear: both !important; display: block !important; float:  none !important; text-align: center;
+}
+#payment fieldset .form-row-wide input.input-text,  #payment div.payment_box #cc-expire-year, #payment div.payment_box #cc-expire-month {
+	width: 90% !important;
+}
+.stripe_new_card .form-row.form-row-last {
+	clear: both !important; float: none !important; width: 90% !important; text-align: left !important;
+}
+.pi-nav li { display:block !important; width:100% !important; }
+.pi-nav .edit-information {  margin:0 0 15px !important; }
+.personal-information dd { overflow: hidden; text-overflow: ellipsis; font-size:1em !important; }
+.personal-information dl { padding-left:20px !important; padding-right:20px !important; }
+.account-nav li { margin-right:10% !important; }
+.cart_totals  table { width:100% !important; }
+.my-account h2 { float:left; width:100%; margin:35px 0 30px !important; }
+.shop_table.cart, .digital-downloads.shop_table, .shop_table.my_account_orders  { display:block; float:left; width:100%; }
+.shop_table.cart tr, .shop_table.cart tbody, .shop_table.my_account_orders tr, .shop_table.my_account_orders tbody, .digital-downloads.shop_table tbody, .digital-downloads.shop_table tr{ display:block; width:100%; float:left; clear:both; }
+.shop_table.cart thead, .shop_table.my_account_orders thead, .digital-downloads.shop_table thead{ display:none !important; }
+.shop_table.cart td, .shop_table.my_account_orders td, .digital-downloads.shop_table td { position:relative; width:100%; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; display:block; padding:20px 20px 20px 45% !important; }
+.shop_table.cart td .button, .digital-downloads.shop_table td .button { margin:0 !important; }
+.shop_table.cart tr:first-child td:first-child, .shop_table.my_account_orders tr:first-child td:first-child, .digital-downloads.shop_table tr:first-child td:first-child { border-top:none !important; }
+
+.shop_table.cart tr:nth-child(even), .shop_table.my_account_orders tr:nth-child(even), .digital-downloads.shop_table tr:nth-child(even) { background:rgb(252, 252, 252); }
+
+.digital-downloads.shop_table td:first-child::before { content:"Product name"; }
+.digital-downloads.shop_table td:nth-child(2)::before { content:"Version"; }
+.digital-downloads.shop_table td:last-child::before { content:"Functions"; }
+
+.shop_table.my_account_orders.rewards td:first-child::before { content:"Order Number" !important; padding:10px !important; }
+.shop_table.my_account_orders.rewards td:nth-child(2)::before { content:"Date" !important; }
+.shop_table.my_account_orders.rewards td:nth-child(3)::before { content:"Total earned" !important; padding:10px !important; }
+.shop_table.my_account_orders.rewards td:nth-child(4)::before { content:"Total used" !important; padding:10px !important; }
+.shop_table.my_account_orders.rewards td:nth-child(5)::before { content:"Status" !important; }
+
+
+.shop_table.cart td:first-child::before { content:"Remove"; }
+.shop_table.cart td:nth-child(2)::before { content:"Product"; }
+.shop_table.cart td:nth-child(3)::before { content:"Price"; }
+.shop_table.cart td:nth-child(4)::before { content:"Quantity"; }
+.shop_table.cart td:nth-child(5)::before { content:"Total"; }
+
+.shop_table.my_account_orders td:first-child::before { content:"Order Number"; padding:10px !important; }
+.shop_table.my_account_orders td:nth-child(2)::before { content:"Date"; }
+.shop_table.my_account_orders td:nth-child(3)::before { content:"Total"; }
+.shop_table.my_account_orders td:nth-child(4)::before { content:"Status"; }
+
+.shop_table.cart td.product-quantity { overflow:hidden; }
+
+.shop_table.cart td::before, .shop_table.my_account_orders td::before, .digital-downloads.shop_table td::before { background: #fafdfd; border-right:1px solid #e5f5f5; color: #5bc3be; top:0; width:40%; position:absolute; left:0; display:block; padding:20px 10px; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; box-sizing:border-box; height:100%; }
+.earn-rewards { padding:15px; border-radius:5px; }
+
+.account-2col { width: 100%; padding: 0 40px; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; overflow:hidden; }
+.account-2col li { width:100% !important; margin:0 0 30px !important; }
+
+.button.checkout-update-cart { display:none; }
+
+.coupon { margin: 10px 0 20px !important; width: 100%; }
+
+.button.back-to-shopping { margin:0 0 15px !important; }
+.cart-actions { float:left !important; }
+
+#customer_details p input, #customer_details p { width:100% !important; }
+.address-form, .personal-information { overflow:hidden; }
+
+
+
+.form-row.place-order { width:100% !important; float:left; }
+#place_order { float:left !important; }
+.affiliate-monthly { display:none !important; }
+.affiliate-commissions { margin-top:30px !important; }
+.affiliate-commissions dl, .affiliate-share, .affiliate-commissions { width:100% !important; }
+.affiliate-share { margin-left: 0 !important; margin-top: 30px !important; }
+.affiliate-share a.aff-share-twitter { margin-top:5px !important; }
+.aff-link { word-break: break-all; text-align:center; }
+.aff-link a.affiliate-help { display:block; margin:5px 0 0 !important; }
+.affiliate-share a { width: 100% !important; margin-right: 0 !important; -moz-box-sizing: border-box !important; -webkit-box-sizing: border-box !important; box-sizing: border-box !important; text-align: center; }
+.affiliate-program .content-body .account-title-divider { margin-top:62px !important; }
+
+.checkout-button, .cart-actions, .button.back-to-shopping { width:100% !important; box-sizing: border-box !important; -webkit-box-sizing: border-box !important; -moz-box-sizing: border-box !important; text-align:center !important; }
+
+}
+
+@media screen and (max-width: 320px) {
+.article-single p, .article p {font-size:18px!important;line-height:30px!important}
+#content-wrapper.shop h1 {line-height: 40px!important;}
+.faq li {width: 61%!important;padding-right: 0%!important;}
+.shop-info .info li span { float:initial!important;display:block!important;font-weight:600!important;}
+.minicart { display: none; }
+.mobile-share { display: none; }
+.cart-collaterals .button.grey { float: none !important; text-align: center !important; margin-bottom: 15px !important; display: block !important; }
+.cart-collaterals .cart_totals { display: block !important; float: none !important; }
+.cart_cs { display: none; }
+#content-wrapper .account-extra li {
+	float: none; width: 80%;
+}
+
+.stripe_new_card .form-row.form-row-last {
+	width: 80% !important; clear: both !important; 
+}
+}
+
+@media screen and (max-width: 240px) {
+#page-menu-wrapper ul li .top-menu { padding:15px 10px 22px !important; }
+}
+
+/********************************************************************************************* 
+
+Main
+
+*********************************************************************************************/
+
+#main-wrapper {
+
+}
+
+#header-wrapper {
+height:171px;
+max-width:1108px;
+margin:0 auto;
+}
+
+#content-wrapper {
+border-top: 1px solid #F1F1F1;
+border-right: 1px solid #E7E6E6;
+border-left: 1px solid #E7E6E6;
+background: white;
+padding-bottom: 30px;
+border-radius: 6px;
+border-bottom: 1px solid #CFCFCF;
+min-height:800px;
+max-width:1108px;
+margin:0 auto;
+}
+
+#footer-wrapper {
+text-align: center;
+padding: 30px 0;
+max-width:1108px;
+margin:0 auto;
+}
+
+.button, a.button, a.more-link {
+background-color: #222;
+color: #fff;
+cursor: pointer;
+display: inline-block;
+font-style: normal;
+letter-spacing: normal;
+padding: 8px 10px 9px;
+position: relative;
+text-decoration: none;
+font-size:10px;
+border:none;
+}
+
+.button:hover, a.button:hover, a.more-link:hover {
+background:#446DB2 !important;
+}
+
+
+form .form-row
+{
+	margin:0 0 6px;
+	padding:3px;
+}
+
+
+
+form .form-row input.input-text,form .form-row textarea, .affiliates-registration input[type="text"], .affiliates-registration textarea, .login-username input, .login-password input
+{
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 17px;
+    line-height: 36px;
+    height: 36px;
+    margin-bottom: 18px;
+    padding: 0px 10px;
+    width: 93%;
+}
+form .form-row textarea
+{
+    border: 1px solid #E5E5E5;
+    border-radius: 5px 5px 5px 5px;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 17px;
+    line-height: 36px;
+    margin-bottom: 30px;
+    padding: 1% 1.5%;
+    width: 97%;
+}
+
+ul.products li.product strong,form .form-row label
+{
+	display:block;
+}
+
+.green-full-width { text-align: center; }
+.green-full-width h1 { font: 500 24px/1 'Helvetica Neue', 'Varela Round', 'Helvetica', sans-serif; padding: 38px 0 35px; color: #232323; }
+.green-full-width .content-body { border-top: 6px solid #52afab; background: #5bc3be; padding: 86px 0 94px;
+}
+.green-full-width form {
+	text-align: center; width: 38.46%; margin: 0 auto; min-width:248px ;
+}
+.green-full-width form.register label {
+	padding-bottom: 15px;
+}
+.green-full-width form.login .lost_password {
+	float: right;  color: #fff; text-decoration: underline; line-height: 1; font-family: 'Helvetica Neue', 'Varela Round', 'Helvetica', arial, sans-serif;
+}
+.green-full-width form.login .sign_pw {
+	float: left;
+}
+.green-full-width form.login #username {
+	margin-bottom: 38px;
+}
+.green-full-width form.login .button {
+	margin-top: 18px; padding: 14px 0; width: 202px;
+}
+.green-full-width label {
+	color: #fff; font: 400 16px/1 'Helvetica Neue','Varela Round', 'Helvetica', sans-serif; padding-bottom: 12px; text-align: left;
+}
+.green-full-width form input.input-text, .green-full-width #affiliates-registration-form input[type=text] {
+	width: 100%; margin-bottom: 30px; font-size: 1.5em; height: auto; padding: 0 10px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; min-width: 248px; font-family: 'Helvetica Neue','Varela Round', helvetica, arial, sans-serif; font-weight:500; height: 50px; line-height: 1; border: none;
+}
+.green-full-width form input[type=text]:focus, .green-full-width form input[type=password]:focus, .green-full-width form input[type=email]:focus,  .green-full-width #affiliates-registration-form input[type=text]:focus  {
+	border: 3px solid #50a5a1; outline: none; padding: 0 7px;
+}
+.green-full-width form.register .form-row-first {
+	margin-right: 18px;
+}
+.green-full-width form .form-row-first input.input-text, .green-full-width form .form-row-last input.input-text {
+	width: 99%; min-width: 180px;
+}
+.green-full-width form .form-row-first, .green-full-width form .form-row-last {
+	text-align: left;
+}  
+.green-full-width form .button, .green-full-width #affiliates-registration-form input[type=submit] {
+	background: #e1455e; font: 500 24px/1 'Helvetica Neue', 'Varela Round', 'Helvetica', sans-serif; padding: 18px 0 20px; width: 248px; margin-top: 32px; transition: background 0.5s ;
+	-moz-transition: background 0.5s;
+	-webkit-transition: background 0.5s;
+	-o-transition: background 0.5s;
+}
+.green-full-width #affiliates-registration-form input[type=submit]:hover {
+	background: #446DB2 !important; 
+}
+.green-full-width form.register .button, .green-full-width #affiliates-registration-form input[type=submit] {
+	padding: 14px 37px 15px; margin-top: 22px; width: auto;
+}
+.green-full-width form.register input.input-text, .green-full-width form.login input.input-text, .green-full-width form.lost_reset_password input.input-text, .green-full-width #affiliates-registration-form input[type=text] {
+	background: url('images/form-sprite.png') no-repeat right 7px #fff;
+}
+.green-full-width #reg_username:focus, .green-full-width #reg_firstname:focus, .green-full-width #reg_lastname:focus, .green-full-width #username:focus, .green-full-width form.lost_reset_password input.input-text:focus, .green-full-width #affiliates-registration-form #affiliates-registration-form-first-name:focus, .green-full-width #affiliates-registration-form #affiliates-registration-form-last-name:focus, .green-full-width #affiliates-registration-form #affiliates-registration-form-user-login:focus, .green-full-width #affiliates-registration-form input[type=text]:focus  {
+	background: url( 'images/form-sprite.png' ) no-repeat right -118px #fff;
+}
+.green-full-width form.register #reg_email, .green-full-width #affiliates-registration-form #affiliates-registration-form-email  {
+	background: url('images/form-sprite.png') no-repeat right -31px #fff;
+}
+.green-full-width form.register #reg_email:focus, .green-full-width #affiliates-registration-form #affiliates-registration-form-email:focus {
+	background: url( 'images/form-sprite.png' ) no-repeat right -161px #fff !important; padding: 0 7px;
+}
+.green-full-width form.register #reg_password, .green-full-width form.register #reg_password2, .green-full-width form.login #password {
+	background: url('images/form-sprite.png') no-repeat right -75px #fff;
+}
+.green-full-width form.register #reg_password:focus, .green-full-width form.register #reg_password2:focus, .green-full-width form.login #password:focus {
+	background: url( 'images/form-sprite.png' ) no-repeat right -216px #fff !important;
+}
+
+.lost_reset_password {
+	font-family: 'Helvetica Neue','Varela Round', 'helvetica', arial, sans-serif; color: #fff;
+}
+.account-extra {
+	overflow: auto;
+}
+.account-extra h3 {
+	font: 500 20px/1 'Helvetica Neue', "Varela Round", Helvetica, Arial, sans-serif !important; padding: 34px 0 21px; 
+}
+.account-extra li {
+	width: 31.5%; float: left; padding: 10px 20px 59px 39px; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+
+.account-extra .button {
+	font: 500 16px/1 'Helvetica Neue', "Varela Round", Helvetica, Arial, sans-serif !important; color: #fff; margin-top: 27px; display: block; float: left; padding: 12px 20px 15px; height: auto;
+}
+.account-2col li .placeholder {
+	float: left; margin-right: 45px;
+}
+.account-extra li.col-1 {
+	margin-right: 11px;
+}
+.account-extra li.col-2 {
+	margin-right: 25px;
+}
+
+.form-row.login_form { text-align:center; margin:0 3px !important; }
+.login_form input, .login_form { height: 50px !important;line-height: 50px !important;padding: 0 !important }
+.login_form .button { display:inline-block; width:48% !important; float:left; }
+.login_form .button.register_button { float:right; background:rgb(56, 184, 112); }
+.checkout-button { background:#5bc4be !important; float:right !important; }
+.cart-actions a { color:#7f7f7f; text-decoration:underline; }
+.terms-of { width:230px; float:left; text-align: right; margin: -1px 25px 0 0 !important; }
+@media screen and (max-width: 655px) {
+.terms-of { width:100% !important;  }
+.terms-of { text-align:center !important; margin:20px 0 !important; }
+
+ }
+@media screen and (max-width: 480px) {
+.login_form .button { width:100% !important; }
+}
+
